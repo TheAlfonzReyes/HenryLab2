@@ -1,6 +1,6 @@
 # PROYECTO INDIVIDUAL N2 
 # SINIESTROS VIALES EN CIUDAD DE BUENOS AIRES
-![](foto_portada.jpg) 
+![](Img/carro1.jpg) 
 ## Introduccion : 
 Este proyecto consiste en asumir el rol de un Data Science y Data Analyst y en base a la base de datos del gobierno de la Ciudad de Buenos Aires realizar un analisis de los siniestros viales para poder entregar informacion que permita a las autoridades locales tomar medidas para reducir la cantidad de victimas fatales. Para eso vamos a utilizar los archivos disponibles en su pagina oficial y realizarles un proceso de EDA , ETL y finalmente la creacion de una base de datos MySql para la creacion de un dash board en Power Bi. 
 ## Tecnologias utilizadas 
@@ -25,12 +25,12 @@ Realice el proceso EDA  (Exploratory Data Analysis) en el DataSet  con el objeti
 
 Como por ejemplo en la sigiente imagen podemos ver un grafico que muestra la cantidad de accidentes en los diferentes tipos de calle.
 
-[](Img/accidentescalle.png):
+![](Img/accidentescalle.png):
 
 Con esto podemos ver que las avenidad son las mas peligrosas y propensas a estos accidentes.
 Todo con mas detalle dentro del archivo EDA.
 
-[](Img/accidentescalle2.png):
+![](Img/accidentescalle2.png):
 
 Igual podemos ver que representa mas del 60% de los accidentes.
 
@@ -43,7 +43,7 @@ Creamos una base de datos con MySQL a traves de python donde ingresamos la tabla
 Importante crear la table, el schema y correr la base en local root. Esta BD se conectara al Dashboard y desde esta consumiremos la informacion.
 Dejo una imagen de muestra usando SQL Workbench.
 
-[](Img/sql.png):
+![](Img/sql.png):
 
 ### 4. [Creacion del Dash Board](pi02.pbix):
 Para este paso se utilizo el Data set final llamado DataFrameFinal.csv Se crearon 5 Paginas dentro de la presentacion de Power Bi con el siguiente objetivo: 
